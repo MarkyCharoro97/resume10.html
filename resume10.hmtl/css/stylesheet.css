@@ -1,0 +1,75 @@
+body{
+    display: block;
+    overflow-x: hidden;
+}
+nav{
+    background-color: purple;
+}
+.navbar-brand img{
+    max-height: 50px;
+}
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:purple;
+}
+nav ul li a{
+    color: blue;
+    font-size: 22px;
+    margin: auto 10px;
+}
+nav ul li a:hover{
+    color: purple;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: purple;
+    text-align: left;
+    margin-bottom: 20px;
+}
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+button{
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+#about .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#about .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+#about img{
+    max-width: 130% !important;
+    width: 130%;
+}
+#about .card{
+    box-shadow: 11px 7px 16px purple;
+    border: 0%;
+    text-align: center;
+}
+#about .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact{
+text-align: center;
+background-color: purple;
+color: white;
+}
+#contact h1{
+    text-align: center;
+    color: white;
+}
